@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <v-toolbar-title>{{ school }}</v-toolbar-title>
+    <v-app-bar app color="red" dark>
+      <v-toolbar-title>{{ portfolio }}</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
@@ -15,7 +15,7 @@
   export default {
     name: "App",
     data() {
-      return { school: "MyDigitalSchool" };
+      return { portfolio: "Voici mon Portfolio Project avec Vue.js" };
     },
   };
 </script>
